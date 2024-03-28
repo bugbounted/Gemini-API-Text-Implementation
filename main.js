@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
 import MarkdownIt from 'markdown-it';
 
-let API_KEY = "AIzaSyDGV856pLCGA-XKbx1j327KDqqQ_5kXf_k"; // Generic testing API KEY
+let API_KEY = "AlzaSyDGV856pLCGA-XKbx1j327KDqqQ_5kXf_k"; // Generic testing API KEY
 let form = document.querySelector('form');
 let promptInput = document.querySelector('input[name="prompt"]');
 let output = document.querySelector('.output');
